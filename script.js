@@ -1,5 +1,5 @@
 const clientId = '2f236217188349b6b8f6ef39acdf694a';  // Replace with your Spotify access token
-const redirectUri = 'http://localhost:5500/';    // Replace with your redirect URI
+const redirectUri = 'https://vaclavpi.github.io/playlistmaker/';    // Replace with your redirect URI
 let accessToken = null;
 let userId = null;
 
