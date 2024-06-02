@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Playlist Generator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Spotify Playlist Generator</h1>
+    <div id="language">
+      <label for="enCheckbox">English</label>
+      <input type="checkbox" id="enCheckbox" value="en" checked>
+      <label for="csCheckbox">Czech</label>
+      <input type="checkbox" id="csCheckbox" value="cs" checked>
+      <label for="skCheckbox">Slovak</label>
+      <input type="checkbox" id="skCheckbox" value="sk" checked>
+    </div>
+    <div id="question"></div>
+    <br>
+    <div id="buttons">
+      <button id="likeBtn" class="btn like">Like</button>
+      <span class="btn-space"></span>
+      <button id="dislikeBtn" class="btn dislike">Dislike</button>
+    </div>
+    <br>
+    <div id="auth">
+      <a id="authBtn" class="btn auth" href="#"><i class="fab fa-spotify"></i>Log in to Spotify</a>
+    </div>
+    <div id="playlist"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
